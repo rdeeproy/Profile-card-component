@@ -1,0 +1,138 @@
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  position: relative;
+  height: 100vh;
+  box-sizing: border-box;
+  background-color: rgb(1, 88, 88);
+  font-family: 'Kumbh Sans', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(185, 75%, 39%);
+  overflow: hidden;
+  
+}
+
+img{
+  width: 100%;
+}
+
+
+.container{
+  max-width: 320px;
+  background-color: white;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  z-index: 100;
+  box-shadow: 2px 8px 16px 4px hsla(227, 10%, 46%, 0.404);
+}
+
+.image-content{
+  position: relative;
+  margin-bottom: 2.5rem;
+  
+}
+
+.background-pic{
+  border-radius: 1rem 1rem 0 0;
+}
+
+.profile-pic{
+
+  width: 96px;
+  border-radius: 100px;
+  border: solid 5px white;
+  position: absolute;
+  bottom: -48px;
+  left:50%;
+ 
+  box-shadow: 0 4px 12px rgba(53, 53, 53, 0.39);
+  transform: translateX(-50%);
+}
+
+.profile-info{
+ display: flex;
+ flex-direction: column;
+ justify-content: flex-start;
+ align-items: center;
+ margin-bottom: 1rem;
+ border-bottom: solid 1px rgba(189, 189, 189, 0.575);
+ padding: 1.6rem;
+}
+
+h1{
+  font-size: 1.125rem;
+  margin-bottom: 0.625rem;
+  font-weight: 700;
+  color: hsl(229, 23%, 23%);
+  
+}
+
+span{
+  font-weight: 500;
+  color: hsl(227, 10%, 46%);
+  margin-left: 0.4rem;
+}
+.profile-info p{
+  color: hsl(227, 10%, 46%);
+}
+
+
+.profile-stats{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  place-items: center;
+  padding: 0 1rem;
+  margin-bottom: 1.5rem;
+}
+ul{
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+align-items: center;
+padding: 0.5rem;
+transition: 300ms;
+border-radius: 1rem;
+cursor: pointer;
+
+}
+
+ul:hover{
+  background-color: rgba(209, 209, 209, 0.336);
+}
+h2{
+  color: hsl(229, 23%, 23%);
+  font-size: 1.125rem;
+  margin-bottom: 0.3rem;
+  font-weight: 700;
+}
+ul p{
+  font-size: 0.6rem;
+  color:hsl(227, 10%, 46%);
+  letter-spacing: 1px;
+}
+.image-top{
+  position: absolute;
+  left:-10%;
+  top:-70%;
+}
+.image-bottom{
+  position: absolute;
+  right: -5%;
+  bottom: -80%;
+}
+
+
+
+
+
+
+
+
