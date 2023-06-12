@@ -113,7 +113,7 @@ h2{
   margin-bottom: 0.3rem;
   font-weight: 700;
 }
-ul p{
+.profile-stats>div>p{
   font-size: 0.6rem;
   color:hsl(227, 10%, 46%);
   letter-spacing: 1px;
