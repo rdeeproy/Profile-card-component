@@ -113,6 +113,10 @@ h2{
   margin-bottom: 0.3rem;
   font-weight: 700;
 }
+
+.profile-stats div{
+text-align: center;
+}
 .profile-stats>div>p{
   font-size: 0.6rem;
   color:hsl(227, 10%, 46%);
